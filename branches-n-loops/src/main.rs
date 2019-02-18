@@ -25,7 +25,15 @@ fn main() {
     };
     println!("The value of number is: {}", number);
 
-    loop {
-        println!("again!");
-    }
+    let mut counter = 0;
+    let result = loop {
+        counter += 1;
+
+        if counter == 10 {
+            break counter * 2;
+        }
+    };
+    assert_eq!(result, 20);
+    println!("The value of counter is: {}", counter);
+    println!("The value of result is: {}", result);
 }
