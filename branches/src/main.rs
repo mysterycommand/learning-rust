@@ -24,4 +24,8 @@ fn main() {
         6
     };
     println!("The value of number is: {}", number);
+
+    loop {
+        println!("again!");
+    }
 }
