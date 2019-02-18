@@ -36,4 +36,12 @@ fn main() {
     assert_eq!(result, 20);
     println!("The value of counter is: {}", counter);
     println!("The value of result is: {}", result);
+
+    let mut number = 3;
+    while number != 0 {
+        println!("{}!", number);
+
+        number = number - 1;
+    }
+    println!("LIFTOFF!!!");
 }
