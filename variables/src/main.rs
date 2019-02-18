@@ -43,4 +43,11 @@ fn main() {
     println!("The value of x is: {}", tup.0);
     println!("The value of y is: {}", y);
     println!("The value of z is: {}", tup.2);
+
+    let a = [1, 2, 3, 4, 5];
+    let first = a[0];
+    let [_, second, _, _, _] = a;
+    println!("The value of first is: {}", first);
+    println!("The value of second is: {}", second);
+    println!("The value of third is: {}", a[2]);
 }
