@@ -37,4 +37,8 @@ fn main() {
     // remainder
     let remainder = 43 % 5;
     println!("The remainder is: {}", remainder);
+
+    let tup = (500, 6.4, 1);
+    let (_, y, _) = tup;
+    println!("The value of y is: {}", y);
 }
