@@ -50,10 +50,4 @@ fn main() {
     println!("The value of first is: {}", first);
     println!("The value of second is: {}", second);
     println!("The value of third is: {}", a[2]);
-
-    another_function();
-}
-
-fn another_function() {
-    println!("Another function!");
 }
